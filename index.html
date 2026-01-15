@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABHIJEET | Full Stack MERN Developer</title>
+    <meta name="description"
+        content="Portfolio of a passionate Full Stack MERN Developer specializing in modern web applications.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark-theme">
+    <header id="navbar">
+        <nav class="container">
+            <div class="logo">
+                <span class="gradient-text">ABHI</span>JEET
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-glow-container">
+                <div class="glow-blob blob-1"></div>
+                <div class="glow-blob blob-2"></div>
+            </div>
+            <div class="container hero-container">
+                <div class="hero-content fade-in">
+                    <div class="badge">Available for Work</div>
+                    <h2 class="hero-greeting">Hi, I'm Abhijeet</h2>
+                    <h1 class="hero-title">Full Stack MERN Developer</h1>
+                    <p class="hero-subtitle">Building scalable web applications with clean code and modern design
+                        systems.</p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn btn-primary">Featured Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://github.com/AbhijeetIlake" aria-label="GitHub" target="_blank"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/abhijeetilake" aria-label="LinkedIn" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="hero-visual fade-in">
+                    <div class="glass-card hero-card">
+                        <div class="card-header">
+                            <div class="card-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                        </div>
+
+                        <div class="code-snippet">
+                            <span class="keyword">const</span> <span class="variable">dev</span> = {<br>
+                            &nbsp;&nbsp;<span class="property">name</span>: <span class="string">'Abhijeet
+                                Ilake'</span>,<br>
+                            &nbsp;&nbsp;<span class="property">stack</span>: [<span class="string">'MERN'</span>,
+                            <span class="string">'TypeScript'</span>],<br>
+                            &nbsp;&nbsp;<span class="property">focus</span>: <span class="string">'Clean & Scalable
+                                Web Apps'</span><br>
+                            };
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <h2 class="section-title reveal-text">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text reveal-left">
+                        <p>I am a passionate full stack developer who enjoys building scalable and high-performance web
+                            applications. I work mainly with the MERN stack and have a strong understanding of
+                            JavaScript, React, and Node.js. My focus is on writing clean, maintainable code and creating
+                            smooth, user-friendly experiences using modern design practices.</p>
+                        <p>I have a strong problem-solving mindset and a desire to keep learning and improving. I enjoy
+                            exploring new technologies and using them to build meaningful digital solutions. I’m excited
+                            to work on innovative projects and collaborate with teams to help create the future of the
+                            web.</p>
+                        <div class="education-summary">
+                            <h3>Education</h3>
+                            <div class="edu-item">
+                                <div class="edu-dot"></div>
+                                <div class="edu-info">
+                                    <h4>Bachelor of Science in Computer Science</h4>
+                                    <p>Mumbai University | 2023 - 2026</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-stats reveal-right">
+                        <div class="stat-card glass-card">
+                            <i class="fas fa-laptop-code gradient-text"></i>
+                            <span class="stat-label">Modern UI</span>
+                            <p class="stat-desc">
+                                Building responsive and clean user interfaces using React and Tailwind CSS.
+                            </p>
+                        </div>
+
+                        <div class="stat-card glass-card">
+                            <i class="fas fa-server gradient-text"></i>
+                            <span class="stat-label">Backend Development</span>
+                            <p class="stat-desc">
+                                Creating secure and scalable APIs with Node.js and Express.
+                            </p>
+                        </div>
+
+                        <div class="stat-card glass-card">
+                            <i class="fas fa-bolt gradient-text"></i>
+                            <span class="stat-label">Performance</span>
+                            <p class="stat-desc">
+                                Improving load speed, optimizing database queries, and building SEO-friendly apps.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <h2 class="section-title">Core Skills</h2>
+                <div class="skills-grid">
+                    <!-- Frontend -->
+                    <div class="skill-category glass-card reveal-up">
+                        <div class="category-header">
+                            <i class="fas fa-desktop"></i>
+                            <h3>Frontend</h3>
+                        </div>
+                        <div class="skills-container">
+                            <span class="skill-tag" data-tech="frontend">HTML5 / CSS3</span>
+                            <span class="skill-tag" data-tech="frontend">JavaScript (ES6+)</span>
+                            <span class="skill-tag" data-tech="frontend">React.js</span>
+                            <span class="skill-tag" data-tech="frontend">Tailwind CSS</span>
+                        </div>
+                    </div>
+                    <!-- Backend -->
+                    <div class="skill-category glass-card reveal-up" style="animation-delay: 0.1s;">
+                        <div class="category-header">
+                            <i class="fas fa-database"></i>
+                            <h3>Backend</h3>
+                        </div>
+                        <div class="skills-container">
+                            <span class="skill-tag" data-tech="backend">Node.js / Express</span>
+                            <span class="skill-tag" data-tech="backend">MongoDB</span>
+                            <span class="skill-tag" data-tech="backend">REST APIs</span>
+                        </div>
+                    </div>
+                    <!-- Tools / Others -->
+                    <div class="skill-category glass-card reveal-up" style="animation-delay: 0.2s;">
+                        <div class="category-header">
+                            <i class="fas fa-tools"></i>
+                            <h3>Tools & Others</h3>
+                        </div>
+                        <div class="skills-container">
+                            <span class="skill-tag" data-tech="tools">Git / GitHub</span>
+                            <span class="skill-tag" data-tech="tools">Postman</span>
+                            <span class="skill-tag" data-tech="tools">WordPress</span>
+                            <span class="skill-tag" data-tech="tools">Vercel / Netlify</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card glass-card reveal-up">
+                        <div class="project-image-container">
+                            <div class="project-scroll-image">
+                                <img src="./assets/images/nettechhire.jpeg" alt="NetTech Hire Screenshot">
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>NetTech Hire</h3>
+                            <p>A sophisticated recruitment ecosystem with real-time job tracking and seamless workflows.
+                            </p>
+                            <div class="tech-stack">
+                                <span>MongoDB</span>
+                                <span>Express</span>
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>TailwindCSS</span>
+                                <span>JWT</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://nettechhire.netlify.app/" class="btn btn-sm" target="_blank">Demo</a>
+                                <a href="https://github.com/AbhijeetIlake/NetTech-Hire" class="btn btn-sm btn-outline"
+                                    target="_blank">Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Let's build something exceptional.</h3>
+                        <p>I am always open to discussing new projects, creative ideas, or opportunities to be part of
+                            your vision. Whether you have a specific inquiry or just want to connect, I look forward to
+                            hearing from you.</p>
+                        <div class="contact-links">
+                            <a href="mailto:abhijeetilake21@gmail.com"><i class="fas fa-envelope"></i>
+                                abhijeetilake21@gmail.com</a>
+                            <a href="https://www.linkedin.com/in/abhijeetilake" target="_blank"><i
+                                    class="fab fa-linkedin"></i> linkedin.com/in/abhijeetilake</a>
+                            <a href="https://github.com/AbhijeetIlake" target="_blank"><i class="fab fa-github"></i>
+                                github.com/AbhijeetIlake</a>
+                        </div>
+                    </div>
+                    <form class="contact-form glass-card">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Abhijeet Ilake. Built using modern web technologies.</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
