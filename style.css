@@ -210,7 +210,6 @@ img {
 /* Hero Section */
 .hero-section {
     min-height: 80vh;
-    /* More compact height */
     padding-top: 120px;
     display: flex;
     align-items: center;

@@ -1,10 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // 1. Theme Toggle
+
     const themeToggle = document.getElementById('theme-toggle');
     const body = document.body;
     const icon = themeToggle.querySelector('i');
 
-    // Check for saved theme
     const savedTheme = localStorage.getItem('theme') || 'dark-theme';
     body.className = savedTheme;
     updateThemeIcon(savedTheme);
@@ -29,7 +28,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // 2. Navbar Scroll Effect
     const navbar = document.getElementById('navbar');
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
@@ -39,7 +37,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // 3. Reveal on Scroll (Intersection Observer)
     const observerOptions = {
         threshold: 0.15
     };
@@ -78,7 +75,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // 6. Mobile Menu (Simple implementation)
     const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
     const navLinks = document.querySelector('.nav-links');
 
